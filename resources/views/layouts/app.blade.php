@@ -44,7 +44,7 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href="index.html">Stone</a>
-                    </div>          
+                    </div>
 
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="nav navbar-nav navbar-right">
@@ -89,7 +89,6 @@
         </div>
     </div> <!-- .site-slider -->
 
-    @yield('isi')
     <div class="first-section">
         <div class="container">
             <div class="row">
@@ -107,6 +106,7 @@
         </div>
     </div>
 
+    @yield('isi')
 
     <div class="second-section">
         <div class="container">
